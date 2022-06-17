@@ -101,10 +101,32 @@ button {
 @media screen and (max-width:375px){
   .flex-container{
     flex-direction: column;
+	}
+	 .popup{
+    width: 325px;
+    height: 50px;
+    text-align: center;
+    padding-right: 50px;
   }
+  .field{
+    width: 325px;
+  }
+  input{
+    width: 305px;
+    margin-left: 10px;
+  }
+  button{
+    width: 305px;
+    margin-left: 10px;
+  }
+  .foot{
+    width: 305px;
+    padding-right: 30px;
+    text-align: center;
+  }
+}
   .form {
     padding: 30px 40px;	
-  }
 
 }
 .form-control{
